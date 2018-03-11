@@ -1,5 +1,6 @@
-﻿# Start of script
-
+# Start of script
+# Execute from command line: diff.py 1 
+#
 #!/usr/bin/python3
 import sys
 import os.path
