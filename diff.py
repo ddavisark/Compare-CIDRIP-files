@@ -2,12 +2,9 @@
 import sys
 import os.path
 
-# OLD='/home/ddavis/psource/old'
-# NEW='/home/ddavis/psource/new'
-
 OLD=sys.argv[1]
 NEW=sys.argv[2]
-COM='/home/ddavis/psource/com'
+COM='/home/proto/psource/com'
 
 fp=open(OLD, "r")
 fq=open(NEW, "r")
@@ -79,7 +76,7 @@ fr.close()
 # Send the file com's contents to stdout
 #
 
-filepath = "/home/ddavis/psource/com"
+filepath = "/home/proto/psource/com"
 with open(filepath) as fp:
    for line in fp:
       print ("%s"% line.strip())
