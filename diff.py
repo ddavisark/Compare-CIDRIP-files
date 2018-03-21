@@ -56,11 +56,9 @@ for ctr in range(1,3):
          if ctr == 1:
             fr.write(' > '+p+'\n')
             num_old += 1
-#            print (" > %s"% (p))
          else:
             fr.write(' < '+p+'\n')
             num_new += 1
-#            print (" < %s"% (p))
 
    del files[:] 
 
